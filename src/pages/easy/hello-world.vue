@@ -6,6 +6,6 @@ const msg = ref("Hello World")
 <template>
   <div>
     <!-- 页面的期望输出是Hello World -->
-    <h1>msg</h1>
+    <h1>{{ msg }}</h1>
   </div>
 </template>

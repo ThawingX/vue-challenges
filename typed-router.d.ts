@@ -20,5 +20,6 @@ declare module 'vue-router/auto-routes' {
   export interface RouteNamedMap {
     'home': RouteRecordInfo<'home', '/', Record<never, never>, Record<never, never>>,
     '/easy/hello-world': RouteRecordInfo<'/easy/hello-world', '/easy/hello-world', Record<never, never>, Record<never, never>>,
+    '/easy/life-callback': RouteRecordInfo<'/easy/life-callback', '/easy/life-callback', Record<never, never>, Record<never, never>>,
   }
 }

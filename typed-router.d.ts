@@ -29,5 +29,6 @@ declare module 'vue-router/auto-routes' {
     '/easy/prevent-event-propagation': RouteRecordInfo<'/easy/prevent-event-propagation', '/easy/prevent-event-propagation', Record<never, never>, Record<never, never>>,
     '/easy/prop-validation': RouteRecordInfo<'/easy/prop-validation', '/easy/prop-validation', Record<never, never>, Record<never, never>>,
     '/easy/ref-family': RouteRecordInfo<'/easy/ref-family', '/easy/ref-family', Record<never, never>, Record<never, never>>,
+    '/easy/writable-computed': RouteRecordInfo<'/easy/writable-computed', '/easy/writable-computed', Record<never, never>, Record<never, never>>,
   }
 }

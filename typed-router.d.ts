@@ -20,6 +20,7 @@ declare module 'vue-router/auto-routes' {
   export interface RouteNamedMap {
     'home': RouteRecordInfo<'home', '/', Record<never, never>, Record<never, never>>,
     '/easy/capitalize': RouteRecordInfo<'/easy/capitalize', '/easy/capitalize', Record<never, never>, Record<never, never>>,
+    '/easy/dependency-injection': RouteRecordInfo<'/easy/dependency-injection', '/easy/dependency-injection', Record<never, never>, Record<never, never>>,
     '/easy/dom-teleport': RouteRecordInfo<'/easy/dom-teleport', '/easy/dom-teleport', Record<never, never>, Record<never, never>>,
     '/easy/dynamic-css': RouteRecordInfo<'/easy/dynamic-css', '/easy/dynamic-css', Record<never, never>, Record<never, never>>,
     '/easy/hello-world': RouteRecordInfo<'/easy/hello-world', '/easy/hello-world', Record<never, never>, Record<never, never>>,

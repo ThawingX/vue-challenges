@@ -1,19 +1,31 @@
-<script setup>
-import { defineComponent, vModelText } from 'vue';
-defineComponent({
-  name: 'capitalize-directive'
-})
-import { ref } from 'vue'
-const value = ref("")
-
-// 拥有与vue实例相同的生命周期，可以自定义一些内置指令，修饰符通过modifiers获取
-vModelText.beforeUpdate = (el, bingding) => {
-  if (el.value && bingding.modifiers.capitalize) {
-    el.value = el.value.charAt(0).toUpperCase() + el.value.slice(1)
+<script setup lang='ts'>
+import type { Ref } from 'vue'
+import { ref, isRef } from 'vue'
+/**
+ * Implement a composable function that toggles the state
+ * Make the function work correctly
+*/
+function useToggle(defaultState: boolean | Ref<boolean>): [Ref<boolean>, () => void] {
+  const state = ref(false)
+  function init() {
+    state.value = isRef(defaultState) ? defaultState.value : defaultState
   }
+
+  function toggle() {
+    state.value = !state.value
+  }
+
+  init()
+  return [state, toggle]
 }
+
+const [state, toggle] = useToggle(false)
+
 </script>
 
 <template>
-  <input type="text" v-model.capitalize="value" />
+  <p>State: {{ state ? 'ON' : 'OFF' }}</p>
+  <p @click="toggle">
+    Toggle state
+  </p>
 </template>

@@ -1,19 +1,19 @@
-<script setup>
-import { defineComponent, vModelText } from 'vue';
-defineComponent({
-  name: 'capitalize-directive'
+import { mount } from "@vue/test-utils"
+import { describe, it, expect } from "vitest"
+
+import App from "../use-toggle.vue"
+
+describe("useToggle", () => {
+  it("toggle state", async () => {
+    const wrapper = mount(App)
+    const p1 = wrapper.findAll("p")[0]
+    const p2 = wrapper.findAll("p")[1]
+    expect(p1.text()).toBe("State: OFF")
+
+    await p2.trigger("click")
+    expect(p1.text()).toBe("State: ON")
+
+    await p2.trigger("click")
+    expect(p1.text()).toBe("State: OFF")
+  })
 })
-import { ref } from 'vue'
-const value = ref("")
-
-// 拥有与vue实例相同的生命周期，可以自定义一些内置指令，修饰符通过modifiers获取
-vModelText.beforeUpdate = (el, bingding) => {
-  if (el.value && bingding.modifiers.capitalize) {
-    el.value = el.value.charAt(0).toUpperCase() + el.value.slice(1)
-  }
-}
-</script>
-
-<template>
-  <input type="text" v-model.capitalize="value" />
-</template>

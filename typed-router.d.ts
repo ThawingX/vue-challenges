@@ -32,6 +32,7 @@ declare module 'vue-router/auto-routes' {
     '/vuejs-challenges/prop-validation': RouteRecordInfo<'/vuejs-challenges/prop-validation', '/vuejs-challenges/prop-validation', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/ref-family': RouteRecordInfo<'/vuejs-challenges/ref-family', '/vuejs-challenges/ref-family', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/shallow-ref': RouteRecordInfo<'/vuejs-challenges/shallow-ref', '/vuejs-challenges/shallow-ref', Record<never, never>, Record<never, never>>,
+    '/vuejs-challenges/until-counter': RouteRecordInfo<'/vuejs-challenges/until-counter', '/vuejs-challenges/until-counter', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-toggle': RouteRecordInfo<'/vuejs-challenges/use-toggle', '/vuejs-challenges/use-toggle', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/watch-family': RouteRecordInfo<'/vuejs-challenges/watch-family', '/vuejs-challenges/watch-family', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/writable-computed': RouteRecordInfo<'/vuejs-challenges/writable-computed', '/vuejs-challenges/writable-computed', Record<never, never>, Record<never, never>>,

@@ -23,6 +23,7 @@ declare module 'vue-router/auto-routes' {
     '/vuejs-challenges/dependency-injection': RouteRecordInfo<'/vuejs-challenges/dependency-injection', '/vuejs-challenges/dependency-injection', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/dom-teleport': RouteRecordInfo<'/vuejs-challenges/dom-teleport', '/vuejs-challenges/dom-teleport', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/dynamic-css': RouteRecordInfo<'/vuejs-challenges/dynamic-css', '/vuejs-challenges/dynamic-css', Record<never, never>, Record<never, never>>,
+    '/vuejs-challenges/functional-component': RouteRecordInfo<'/vuejs-challenges/functional-component', '/vuejs-challenges/functional-component', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/hello-world': RouteRecordInfo<'/vuejs-challenges/hello-world', '/vuejs-challenges/hello-world', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/life-callback': RouteRecordInfo<'/vuejs-challenges/life-callback', '/vuejs-challenges/life-callback', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/losing-reactivity': RouteRecordInfo<'/vuejs-challenges/losing-reactivity', '/vuejs-challenges/losing-reactivity', Record<never, never>, Record<never, never>>,

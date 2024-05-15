@@ -36,6 +36,7 @@ declare module 'vue-router/auto-routes' {
     '/vuejs-challenges/use-counter': RouteRecordInfo<'/vuejs-challenges/use-counter', '/vuejs-challenges/use-counter', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-local-storage': RouteRecordInfo<'/vuejs-challenges/use-local-storage', '/vuejs-challenges/use-local-storage', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-toggle': RouteRecordInfo<'/vuejs-challenges/use-toggle', '/vuejs-challenges/use-toggle', Record<never, never>, Record<never, never>>,
+    '/vuejs-challenges/v-debounce-click': RouteRecordInfo<'/vuejs-challenges/v-debounce-click', '/vuejs-challenges/v-debounce-click', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/v-focus': RouteRecordInfo<'/vuejs-challenges/v-focus', '/vuejs-challenges/v-focus', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/watch-family': RouteRecordInfo<'/vuejs-challenges/watch-family', '/vuejs-challenges/watch-family', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/writable-computed': RouteRecordInfo<'/vuejs-challenges/writable-computed', '/vuejs-challenges/writable-computed', Record<never, never>, Record<never, never>>,

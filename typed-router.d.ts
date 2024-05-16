@@ -32,6 +32,7 @@ declare module 'vue-router/auto-routes' {
     '/vuejs-challenges/prevent-event-propagation': RouteRecordInfo<'/vuejs-challenges/prevent-event-propagation', '/vuejs-challenges/prevent-event-propagation', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/prop-validation': RouteRecordInfo<'/vuejs-challenges/prop-validation', '/vuejs-challenges/prop-validation', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/ref-family': RouteRecordInfo<'/vuejs-challenges/ref-family', '/vuejs-challenges/ref-family', Record<never, never>, Record<never, never>>,
+    '/vuejs-challenges/render-function': RouteRecordInfo<'/vuejs-challenges/render-function', '/vuejs-challenges/render-function', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/shallow-ref': RouteRecordInfo<'/vuejs-challenges/shallow-ref', '/vuejs-challenges/shallow-ref', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/until-counter': RouteRecordInfo<'/vuejs-challenges/until-counter', '/vuejs-challenges/until-counter', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-counter': RouteRecordInfo<'/vuejs-challenges/use-counter', '/vuejs-challenges/use-counter', Record<never, never>, Record<never, never>>,

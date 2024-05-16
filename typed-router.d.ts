@@ -25,6 +25,7 @@ declare module 'vue-router/auto-routes' {
     '/vuejs-challenges/dynamic-css': RouteRecordInfo<'/vuejs-challenges/dynamic-css', '/vuejs-challenges/dynamic-css', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/functional-component': RouteRecordInfo<'/vuejs-challenges/functional-component', '/vuejs-challenges/functional-component', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/hello-world': RouteRecordInfo<'/vuejs-challenges/hello-world', '/vuejs-challenges/hello-world', Record<never, never>, Record<never, never>>,
+    '/vuejs-challenges/key-modifiers': RouteRecordInfo<'/vuejs-challenges/key-modifiers', '/vuejs-challenges/key-modifiers', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/life-callback': RouteRecordInfo<'/vuejs-challenges/life-callback', '/vuejs-challenges/life-callback', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/losing-reactivity': RouteRecordInfo<'/vuejs-challenges/losing-reactivity', '/vuejs-challenges/losing-reactivity', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/next-tick': RouteRecordInfo<'/vuejs-challenges/next-tick', '/vuejs-challenges/next-tick', Record<never, never>, Record<never, never>>,

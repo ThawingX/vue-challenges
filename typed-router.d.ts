@@ -38,6 +38,7 @@ declare module 'vue-router/auto-routes' {
     '/vuejs-challenges/ref-family': RouteRecordInfo<'/vuejs-challenges/ref-family', '/vuejs-challenges/ref-family', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/render-function': RouteRecordInfo<'/vuejs-challenges/render-function', '/vuejs-challenges/render-function', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/shallow-ref': RouteRecordInfo<'/vuejs-challenges/shallow-ref', '/vuejs-challenges/shallow-ref', Record<never, never>, Record<never, never>>,
+    '/vuejs-challenges/tree-component': RouteRecordInfo<'/vuejs-challenges/tree-component', '/vuejs-challenges/tree-component', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/until-counter': RouteRecordInfo<'/vuejs-challenges/until-counter', '/vuejs-challenges/until-counter', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-counter': RouteRecordInfo<'/vuejs-challenges/use-counter', '/vuejs-challenges/use-counter', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-local-storage': RouteRecordInfo<'/vuejs-challenges/use-local-storage', '/vuejs-challenges/use-local-storage', Record<never, never>, Record<never, never>>,

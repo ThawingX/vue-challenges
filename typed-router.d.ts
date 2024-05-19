@@ -38,6 +38,7 @@ declare module 'vue-router/auto-routes' {
     '/vuejs-challenges/until-counter': RouteRecordInfo<'/vuejs-challenges/until-counter', '/vuejs-challenges/until-counter', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-counter': RouteRecordInfo<'/vuejs-challenges/use-counter', '/vuejs-challenges/use-counter', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-local-storage': RouteRecordInfo<'/vuejs-challenges/use-local-storage', '/vuejs-challenges/use-local-storage', Record<never, never>, Record<never, never>>,
+    '/vuejs-challenges/use-mouse': RouteRecordInfo<'/vuejs-challenges/use-mouse', '/vuejs-challenges/use-mouse', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/use-toggle': RouteRecordInfo<'/vuejs-challenges/use-toggle', '/vuejs-challenges/use-toggle', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/v-debounce-click': RouteRecordInfo<'/vuejs-challenges/v-debounce-click', '/vuejs-challenges/v-debounce-click', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/v-focus': RouteRecordInfo<'/vuejs-challenges/v-focus', '/vuejs-challenges/v-focus', Record<never, never>, Record<never, never>>,

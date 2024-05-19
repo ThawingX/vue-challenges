@@ -6,7 +6,7 @@ defineComponent({
 })
 
 const router = useRouter()
-const routeList = computed(() => router.getRoutes().map(_v => ({ path: _v.path, name: _v.name })))
+const routeList = computed(() => router.getRoutes().map(_v => ({ path: _v.path, name: _v.name })).reverse())
 const hanldePushRoute = (route: string) => {
   router.push(route)
 }

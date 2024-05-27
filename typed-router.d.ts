@@ -20,6 +20,7 @@ declare module 'vue-router/auto-routes' {
   export interface RouteNamedMap {
     'home': RouteRecordInfo<'home', '/', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/capitalize': RouteRecordInfo<'/vuejs-challenges/capitalize', '/vuejs-challenges/capitalize', Record<never, never>, Record<never, never>>,
+    '/vuejs-challenges/custom-element': RouteRecordInfo<'/vuejs-challenges/custom-element', '/vuejs-challenges/custom-element', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/dependency-injection': RouteRecordInfo<'/vuejs-challenges/dependency-injection', '/vuejs-challenges/dependency-injection', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/dom-teleport': RouteRecordInfo<'/vuejs-challenges/dom-teleport', '/vuejs-challenges/dom-teleport', Record<never, never>, Record<never, never>>,
     '/vuejs-challenges/dynamic-css': RouteRecordInfo<'/vuejs-challenges/dynamic-css', '/vuejs-challenges/dynamic-css', Record<never, never>, Record<never, never>>,
